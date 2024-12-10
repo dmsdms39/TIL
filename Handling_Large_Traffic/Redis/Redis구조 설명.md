@@ -83,3 +83,18 @@
 # Redis에서 제공되는 다양한 기능(명령어)
 
 ## 자주 사용하는 Redis 명령어
+```
+• SET(HSET, HMSET): 키에 값을 설정
+• GET(HGET, HGETALL): 키에 저장된 값을 가져옴
+• INCR/DECR: 키의 값을 1 증가/감소
+• APPEND: 키에 값을 추가
+• LPUSH(RPUSH): 리스트에 값을 추가(Left, Right)
+• LPOP(RPOP): 리스트의 값을 제거하고 반환
+• LLEN: 리스트의 길이 반환
+• BLPOP(BRPOP): 리스트의 앞쪽 요소를 제거하고 없다면 지정된 시간만큼 대기함
+• DEL: 키 삭제
+• EXISTS: 키 존재 여부 확인
+• EXPIRE: 키의 만료 시간 설정
+• TTL: 키의 만료 시간 가져옴
+• KEYS: 패턴에 매칭되는 모든 키를 가져옴
+```
